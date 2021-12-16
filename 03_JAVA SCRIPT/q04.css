@@ -1,0 +1,15 @@
+.cat {
+    width: 100px;
+    height: 100px;
+    border-color: red;
+    border-style: solid;
+    border-width: 4px;
+}
+
+/* img {
+    width: 100px;
+    height: 100px;
+    border-color: red;
+    border-style: solid;
+    border-width: 4px;
+/* } */

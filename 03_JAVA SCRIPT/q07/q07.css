@@ -1,0 +1,31 @@
+#main {
+    display: grid;    
+    background-color: pink;
+    width:1000px;
+    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.a_box {
+    display: flex;
+    flex-direction: column;    
+    width:80px;
+
+    border:10px solid gold;
+    border-radius: 20px;    
+}
+
+.b_box {
+    display: flex;
+    flex-direction: column;    
+    width:80px;
+
+    border:10px solid red;
+    border-radius: 20px;    
+}
+.cat {
+    width:80px;
+    height:80px;    
+}
+.cat_number {
+    width:80px;    
+    background-color: red;
+}

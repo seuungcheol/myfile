@@ -8,7 +8,7 @@ var resultString="";
 
 window.onload=function(){
     rpcInputText=document.getElementById("rpc_input_text");
-    rpcResultScreen=docment.tegElementById("rpc_result_screen");
+    rpcResultScreen=document.getElementById("rpc_result_screen");
 }
 
 function rpcInputButtonClick(){
@@ -21,7 +21,7 @@ function rpcInputButtonClick(){
         }
     }      
        
-    var computer=Math.floor((Math.random)()*3); //computer 
+    computer=Math.floor((Math.random)()*3); //computer 
         
     if(computer==0){
         computer="가위"
@@ -37,9 +37,9 @@ function rpcInputButtonClick(){
     // dw("컴퓨터:"+computer);
     //  br();
     resultString="플레이어:"+player;
-    resultString="\n";
-    resultString="컴퓨터:"+computer;
-    resultString="\n";
+    resultString=resultString+"\n";
+    resultString=resultString+"컴퓨터:"+computer;
+    resultString=resultString+"\n";
         
     var winDrowLose="";
     switch(player){
@@ -84,6 +84,6 @@ function rpcInputButtonClick(){
             break;
     }
     // dw(winDrowLose);
-    resultString="결과:"+winDrowLose;
+    resultString=resultString+"결과:"+winDrowLose;
     rpcResultScreen.value=resultString;
 }

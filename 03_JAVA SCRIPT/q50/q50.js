@@ -4,14 +4,14 @@ function Character(name, hp, attack){
 	this.attack = attack;  // 몸무게
 
 	this.info = function(){
-		dw(name + "<br>" + hp + "<br>" + attack + "<hr>");
+		dw("이름 : " + name + "<br>" + "체력 : " + hp + "<br>" + "공격력 : " + attack + "<hr>");
 	}
 }
 
 new Character();
 
-var ocr = new Character("이름 :오크", "체력 : 5,000", "공격력 : 300");
-var elf = new Character("이름 :엘프", "체력 : 1,500", "공격력 : 150");
+var ocr = new Character("오크", 5000, 300);
+var elf = new Character("엘프", 1,500, 150);
 
 ocr.info();
 elf.info();

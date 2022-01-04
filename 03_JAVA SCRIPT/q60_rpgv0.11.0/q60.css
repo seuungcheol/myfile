@@ -1,0 +1,23 @@
+#screen_message_box {
+    width: 800px;
+    height: 500px;
+    background-color: rgb(193, 245, 163);
+}
+#screen_player_info {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(158, 175, 255);
+}
+#screen_com_info {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(247, 150, 150);
+
+}
+
+#input_text_turn {
+    background-color: pink;
+    width: 50px;
+    text-align: center;
+
+}

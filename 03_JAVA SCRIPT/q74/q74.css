@@ -1,0 +1,28 @@
+#main{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#login_box{
+    background-color: rgb(72, 138, 224);
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#login_id{
+    width: 150px;
+    margin-top: 20px;
+}
+#login_pw{
+    width: 150px;
+    margin-top: 20px;
+}
+#login_bt{
+    width: 150px;
+    margin-top: 20px;
+}

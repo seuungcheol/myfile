@@ -1,0 +1,51 @@
+#main{
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} 
+    #login_box{
+        background-color: rgb(72, 138, 224);
+        width: 200px;
+        height: 150px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 5px 5px 5px;
+
+    }
+        #login_id{
+            width: 150px;
+            margin-top: 20px;
+        }
+        #login_pw{
+            width: 150px;
+            margin-top: 10px;
+        }
+        #login_bt{
+            width: 100px;
+            margin-top: 5px;
+        }
+        #new_member{
+            width: 100px;
+            margin-top: 5px;
+        }
+
+#signup_main{
+    background-color: rgb(157, 219, 181);
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 5px 5px;
+}
+
+
+#s_number{
+    width: 50px;
+}
+#m_number{
+    width: 50px;
+}
+#f_number{
+    width: 50px;
+}

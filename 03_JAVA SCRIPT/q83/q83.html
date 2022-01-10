@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="q83.CSS">
+        <script src="common.js"></script>
+        <script src="q83.js"></script>
+    </head>
+    <body>
+        <input pattern = "^[0-9]+$">	<!--수자만 입력-->	
+        <input type="text" name="patternValue" pattern="\d*">    <!--수자만 입력-->		
+        <input pattern = "^[a-zA-Z]+$">   <!--영문 대소문자만-->					
+        <input pattern = "^[a-zA-Z\s]+$">   <!--영문 대소문자만(띄어쓰기 공백 가능)-->					
+        <input type="text" name="patternValue" pattern="^[a-zA-Z0-9]+$">	 <!--숫자, 영문 대소문자만-->				
+        <input type="text" name="patternValue" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,16}$">
+        <!--최소 8자리에서 최대 16자리 까지 숫자,영문,특수문자 각 1개 이상 포함(암호 유효성 검사에 유용)-->					    
+    </body>
+</html>
+
+
+
+<!-- 숫자만 입력
+영문 대소문자만
+영문 대소문자만(띄어쓰기 공백 가능)
+숫자, 영문 대소문자만
+"최소 8자리에서 최대 16자리까지 숫자, 영문, 
+특수문자 각 1개 이상 포함 (암호 유효성 검사에 유용)" -->
